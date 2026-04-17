@@ -43,4 +43,31 @@ form button {
   border: none;
   cursor: pointer;
   border-radius: 4px;
+#publications {
+  padding: 40px;
+  background: #f9f9f9;
+}
+  #publications h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .publications-item {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px
+    rgba(0,0,0,0.1);
+  }
+  .publication-item a {
+    color: blue;
+    text-decoration: none;
+  }
+  .publication-item {
+    transition: transform 0.3s ease;
+  }
+  .publication-item:hover {
+    transform: scale(1.03);
+  }
+  
 }
